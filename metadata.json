@@ -1,0 +1,9 @@
+{
+  "uuid": "squircle-desktop-clock@yourdomain.com",
+  "name": "Squircle Desktop Clock",
+  "description": "An elegant, customizable floating digital desktop clock widget with drag-and-drop placement positioning.",
+  "shell-version": [
+    "45", "46", "47", "48", "49", "50"
+  ],
+  "url": "https://github.com/yourusername/squircle-desktop-clock"
+}

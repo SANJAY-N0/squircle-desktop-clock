@@ -1,0 +1,122 @@
+
+/* Handled natively by modern Libadwaita page frameworks */
+
+/* Core Window Frame */
+.clock-menu-frame {
+    background-color: #1e1e1e;
+    border: 1px solid #303030;
+    border-radius: 16px;
+    padding: 16px;
+    box-shadow: 0px 12px 40px rgba(0, 0, 0, 0.6);
+}
+
+/* Header Tabs */
+.clock-tabs-container {
+    background-color: #282828;
+    border-radius: 10px;
+    padding: 4px;
+    margin-bottom: 20px;
+}
+.clock-tab-btn {
+    color: #e0e0e0;
+    padding: 6px 24px;
+    font-weight: bold;
+    font-size: 10.5pt;
+    border-radius: 8px;
+    text-align: center;
+}
+.clock-tab-btn:hover { background-color: #353535; }
+.clock-tab-btn-active {
+    background-color: #3a3a3a;
+    color: #ffffff;
+}
+
+/* Category Sections */
+.clock-section-title {
+    font-size: 11pt;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 2px;
+    margin-left: 4px;
+}
+.clock-section-desc {
+    font-size: 9pt;
+    color: #8c8c8c;
+    margin-bottom: 10px;
+    margin-left: 4px;
+}
+
+/* Settings Group Cards Layout */
+.clock-settings-card {
+    background-color: #282828;
+    border: 1px solid #303030;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+/* Dynamic Setting Rows */
+.clock-settings-row {
+    padding: 12px 16px;
+    border-bottom: 1px solid #353535;
+}
+.clock-settings-row-last {
+    padding: 12px 16px;
+    border-bottom: 0px none;
+}
+.clock-row-title {
+    font-size: 10.5pt;
+    font-weight: 500;
+    color: #ffffff;
+}
+.clock-row-subtitle {
+    font-size: 9pt;
+    color: #8c8c8c;
+}
+
+/* Interactive Component Inputs */
+.clock-ui-dropdown {
+    background-color: #353535;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 6px 14px;
+    font-size: 10pt;
+    text-align: center;
+}
+.clock-ui-dropdown:hover { background-color: #404040; }
+
+/* Numeric Spinner Adjusters */
+.clock-ui-spinner {
+    background-color: #202020;
+    border-radius: 8px;
+    padding: 2px;
+}
+.clock-spinner-val {
+    color: #ffffff;
+    font-size: 10.5pt;
+    padding: 0px 12px;
+    text-align: center;
+}
+.clock-spinner-btn {
+    background-color: #353535;
+    color: #ffffff;
+    font-size: 12pt;
+    font-weight: bold;
+    border-radius: 6px;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+}
+.clock-spinner-btn:hover { background-color: #45475a; }
+
+/* Bottom Action Layout Control */
+.clock-menu-btn-ok {
+    background-color: #353535;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 11pt;
+    text-align: center;
+    margin-top: 4px;
+}
+.clock-menu-btn-ok:hover { background-color: #444444; }
